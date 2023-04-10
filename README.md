@@ -25,10 +25,12 @@ Kotlin plugin for IntelliJ IDEA: Kotlin plugin comes bundled with IntelliJ IDEA 
 5. **Docker**: You will need Docker to run Apache Kafka, Zookeeper, and the Redpanda UI, as well as any other required services for the workshop. You can download and install Docker Desktop from the official website.
 
 Make sure to download the following images before the workshop:
+```
     docker pull confluentinc/cp-kafka:7.3.1
     docker pull confluentinc/cp-zookeeper:7.3.1
     docker pull docker.redpanda.com/vectorized/console:master-173596f
     docker pull confluentinc/cp-schema-registry:7.3.1
-    
+```
+
 6. **Basic knowledge of Kotlin**: Since the workshop focuses on building microservices with Ktor and Kafka using Kotlin, you should have a basic understanding of Kotlin programming.
 7. **Insomnia REST Client**: To test the RESTful services and WebSocket communication developed during the workshop, you should install Insomnia. Insomnia is a powerful HTTP and GraphQL client that allows you to interact with APIs easily. You can download and install it from the official website: https://insomnia.rest/download
